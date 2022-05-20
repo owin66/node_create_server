@@ -13,6 +13,7 @@ const server = http.createServer((req,res)=>{
 
     res.write("<h1>Hello world</h1>") //метод для записи
     res.write("<p>My name is Dima</p>") //метод для записи*/
+
     res.end() //метод сообщает что все данные добавлены
 
 });
